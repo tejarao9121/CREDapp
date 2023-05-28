@@ -1,0 +1,96 @@
+GET  http://localhost:4000/user-api/get-user
+
+
+###
+
+
+
+
+POST  http://localhost:4000/user-api/Register
+Content-Type: application/json
+
+{
+    "email":"sai@gmail.com",
+    "username":"tejarao",
+    "DOB":"01-12-2003",
+    "password":"teja"
+}
+
+###
+
+POST  http://localhost:4000/user-api/Login
+Content-Type:application/json
+
+{
+    "username":"tejarao",
+    "password":"teja"
+}
+
+
+
+###
+
+PUT  http://localhost:4000/user-api/update-user
+Content-Type: application/json
+
+
+
+
+###
+
+
+POST  http://localhost:4000/product-api/Cart
+Content-Type: application/json
+
+{
+  "username":"teja"
+}
+
+
+
+###
+
+POST  http://localhost:4000/product-api/AddUser
+Content-Type: application/json
+
+{
+    "email":"tejarao@gmail.com",
+    "name":"sai",
+    "phNo":"9129193"
+}
+
+
+
+
+
+
+###
+
+
+
+
+
+
+
+
+PUT  http://localhost:4000/product-api/UpdateUser
+Content-Type: application/json
+
+{
+
+}
+
+
+
+
+###
+DELETE  http://localhost:4000/product-api/Cart
+Content-Type: application/json
+
+{
+    
+}
+
+
+###
+
